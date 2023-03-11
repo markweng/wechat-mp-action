@@ -38,4 +38,5 @@ outputs:
     description: "The file path of the MiniProgram to preview the QR code"
 runs:
   using: "node16"
+  pre: "./scripts/install.js"
   main: "./scripts/main.js"
